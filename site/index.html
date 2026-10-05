@@ -75,6 +75,8 @@ p{margin:0}
 .btn svg{width:16px;height:16px;transition:transform .4s var(--ease-out)}
 .btn:hover svg{transform:translateX(3px)}
 @media (max-width:860px){.nav ul{display:none}}
+.nav .btn-sm{white-space:nowrap}
+@media (max-width:420px){.nav .long{display:none}.brand{font-size:18px}}
 
 /* ===== hero ===== */
 .hero{position:relative;height:400vh}
@@ -311,7 +313,7 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
     <li><a href="#who">Who we help</a></li>
     <li><a href="#faq">Questions</a></li>
   </ul>
-  <a class="btn btn-primary btn-sm" href="#audit">Free growth audit</a>
+  <a class="btn btn-primary btn-sm" href="#audit">Free <span class="long">growth </span>audit</a>
 </nav>
 
 <header class="hero" id="top">
